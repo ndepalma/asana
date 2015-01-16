@@ -6,7 +6,10 @@ justprint = False
 addbyproject = False
 addbyassignee = False
 
-asana_api = asana.AsanaAPI('iuigMg6.giPWctdTTXj4lcHjB2mougS0', debug=False)
+## ADD YOUR Asana API key here as string::
+asana_api_key = ''
+
+asana_api = asana.AsanaAPI(asana_api_key, debug=False)
 
 myspaces = asana_api.list_workspaces()
 
