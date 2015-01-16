@@ -1,3 +1,19 @@
+# Asana2todoist fork
+I commited this simple script because I figured it had to be useful for anyone moving between asana and todoist. 
+
+Very simple fork from the original (mad respect to [pandemicsyn](https://github.com/pandemicsyn/asana) for the original asana code.) The intention of this is that you are throwing out all of your asana tools and moving to todoist so you don't want to install all of the asana toolkits just to delete them. [Cit](https://github.com/fatih/cit) was the main command line tool I decided to use for todoist. 
+
+Dead simple Instructions:
+
+1. I started with a cleaned out todoist. If you have items in there already, I can't promise anything but it will probably work anyway. 
+2. Get your asana key (read below)
+3. Install [cit](https://github.com/fatih/cit) and make sure it's on your _$PATH_
+4. Edit the move_it_script.py file and add your API key to the variable _asana_api_key_
+5. <pre> $ python move_it_script.py </pre>
+6. 'cit ls' to make sure it works
+7. Profit.
+
+_Older documentation below_
 # Asana python api 
 
 python wrapper for the [Asana API](http://asana.com)
